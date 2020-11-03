@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 process.env.NODE_PATH = __dirname + "/../node_modules";
 const path = require("path");
 const program = require("commander");
