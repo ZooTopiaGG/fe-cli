@@ -21,7 +21,7 @@
     "standard-version": "^9.0.0"
   },
   "bin": {
-    "ddc-cli": "cli.js"
+    "ddc-cli": "bin/cli.js"
   },
   "repository": {
     "type": "git",
