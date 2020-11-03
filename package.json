@@ -1,0 +1,35 @@
+{
+  "name": "ddc-cli",
+  "version": "1.0.2",
+  "description": "基于叮当码教学平台前端项目搭建得一个脚手架,用于快速构建符合公司业务得项目",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "node ./scripts/release.js",
+    "bin": "node ./bin/cli.js"
+  },
+  "author": "dengpeng",
+  "license": "ISC",
+  "devDependencies": {
+    "chalk": "^4.1.0",
+    "child_process": "^1.0.2",
+    "commander": "^6.2.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^7.3.3",
+    "ora": "^5.1.0",
+    "semver": "^7.3.2",
+    "standard-version": "^9.0.0"
+  },
+  "bin": {
+    "ddc-cli": "cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/lelewj/react-base.git"
+  },
+  "keywords": [
+    "cli",
+    "ddc-base",
+    "dingdangcode"
+  ]
+}

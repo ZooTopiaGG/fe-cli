@@ -1,0 +1,14 @@
+{
+  "master": {
+    "place": "direct:https://gitee.com/lelewj/react-base.git",
+    "branch": "#master"
+  },
+  "simple": {
+    "place": "direct:https://gitee.com/lelewj/react-base.git",
+    "branch": "#simple-template"
+  },
+  "sk": {
+    "place": "direct:https://gitee.com/lelewj/react-base.git",
+    "branch": "#sk-template"
+  }
+}
