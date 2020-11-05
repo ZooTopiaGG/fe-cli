@@ -13,7 +13,7 @@ $ npm install ddcode-cli -g
 ## 快速使用
 
 ```console
-$ ddc create <project-name>
+$ ddcode create <project-name>
 $ cd <project-name>
 $ npm install
 $ npm run start
@@ -27,7 +27,7 @@ $ npm run start
 
   > 选择模板 `simple | master | sk`
 
-  > 使用方式 `$ ddc create <project-name> -t simple`
+  > 使用方式 `$ ddcode create <project-name> -t simple`
 
 - -d （待开发）
 
