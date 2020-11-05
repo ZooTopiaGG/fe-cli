@@ -20,7 +20,7 @@ program
   .option("-t, --template [template]", "enable some foo");
 
 program
-  .command("create <app-name> <project-name>")
+  .command("create <project-name>")
   .description("Generate a new project")
   .action(() => {
     require(resolve("init"));

@@ -7,13 +7,13 @@
 > 切换到公司内部镜像源(镜像源地址：http://171.217.71.138:4873/) nrm use dingdangcode. 使用私有 npm 仓库进行安装
 
 ```console
-$ npm install ddc-cli -g
+$ npm install ddcode-cli -g
 ```
 
 ## 快速使用
 
 ```console
-$ ddc create ddc-base <project-name>
+$ ddc create <project-name>
 $ cd <project-name>
 $ npm install
 $ npm run start
@@ -27,7 +27,7 @@ $ npm run start
 
   > 选择模板 `simple | master | sk`
 
-  > 使用方式 `$ ddc create ddc-base <project-name> -t simple`
+  > 使用方式 `$ ddc create <project-name> -t simple`
 
 - -d （待开发）
 

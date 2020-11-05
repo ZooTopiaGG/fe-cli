@@ -10,9 +10,7 @@ const options = program.opts();
 
 const _args = program.args;
 
-log("xxxxsadasdsad:", options, _args);
-
-const defaultName = typeof _args[2] === "string" ? _args[2] : "ddc-project";
+const defaultName = typeof _args[1] === "string" ? _args[1] : "ddc-project";
 
 const tplList = require(`${__dirname}/../templates`);
 const tplLists = Object.keys(tplList) || [];
@@ -93,12 +91,10 @@ inquirer
       }
       const pkgJsonUrl = `./${defaultName}/package.json`;
       fs.readFile(pkgJsonUrl, "utf8", function (err, fileData) {
-        log(err, fileData);
         if (err) {
           spinner.stop();
           process.exit(1);
         }
-        console.log(fileData);
         const packageJson = JSON.parse(fileData);
         packageJson.name = answers.name;
         packageJson.description = answers.description;
@@ -108,7 +104,6 @@ inquirer
           err,
           fileData
         ) {
-          log(err, fileData);
           if (err) {
             spinner.stop();
             return;
@@ -126,7 +121,6 @@ inquirer
       });
     });
 
-    log(JSON.stringify(answers, null, "  "));
   })
   .catch((error) => {
     if (error.isTtyError) {
