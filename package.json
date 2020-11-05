@@ -1,6 +1,6 @@
 {
   "name": "ddcode-cli",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "基于叮当码教学平台前端项目搭建得一个脚手架,用于快速构建符合公司业务得项目",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "author": "dengpeng",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "chalk": "^4.1.0",
     "commander": "^6.2.0",
     "download-git-repo": "^3.0.2",
