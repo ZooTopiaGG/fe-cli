@@ -1,6 +1,6 @@
 {
-  "name": "ddc-cli",
-  "version": "2.0.3",
+  "name": "ddcode-cli",
+  "version": "2.0.4",
   "description": "基于叮当码教学平台前端项目搭建得一个脚手架,用于快速构建符合公司业务得项目",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,7 @@
     "standard2version": "^1.0.7"
   },
   "bin": {
-    "ddc": "bin/cli.js"
+    "ddcode": "bin/cli.js"
   },
   "repository": {
     "type": "git",
